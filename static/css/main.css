@@ -1,0 +1,108 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-size:larger;
+  }
+  
+  nav .left {
+    margin-left: 10px;
+    font-size: 160%;
+    
+  }
+  
+  nav .center {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav .center .home{
+    color:lightsalmon
+  }
+  
+  nav .center li {
+    margin: 0 10px;
+  }
+  
+  nav .center li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav .right {
+    background-color: lightcoral;
+    border: 2px solid lightsalmon;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-right:20px
+  }
+  
+  .center-content{
+    color:white;
+  }
+  .center-content h1,h3{
+    margin-left:470px;
+    margin-top:200px
+  }
+
+  h1{
+    margin-left:470px;
+    margin-top:20px
+  }
+
+  .input-Form{
+    margin-left:150px
+  }
+  .input-Form label{
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  .input-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+
+  .submitValues{
+    background-color: green;
+    margin-top: 20px;
+    margin-left:370px;
+    border: 0px;
+    width:400px;
+    height:40px;
+}
+.optional{
+  margin-left:0px;
+  display:flex
+}
+
+.optional span{
+  font-weight: 1000;
+  font-size-adjust: initial;
+  font-size:larger;
+  margin-top:23px;
+  margin-left:10px;
+  color:blueviolet
+}
